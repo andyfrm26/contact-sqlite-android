@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Contacts SQLite</string>
+    <string name="title">Nama</string>
+    <string name="description">Nomor</string>
+    <string name="submit">Submit</string>
+    <string name="delete">Hapus</string>
+    <string name="date">Date</string>
+    <string name="message_undo">Batalkan menghapus kontak sebelumnya?</string>
+    <string name="message_ok">OK</string>
+    <string name="cancel">Batal</string>
+    <string name="empty">Tidak boleh kosong</string>
+    <string name="update">Update</string>
+    <string name="change">Ubah Kontak</string>
+    <string name="add">Tambah Kontak</string>
+    <string name="save">Simpan</string>
+    <string name="yes">Ya</string>
+    <string name="no">Tidak</string>
+    <string name="message_cancel">Apakah anda ingin membatalkan?</string>
+    <string name="message_delete">Apakah anda yakin ingin menghapus kontak ini?</string>
+    <string name="added">Satu item berhasil ditambahkan</string>
+    <string name="changed">Kontak berhasil diubah</string>
+    <string name="deleted">Kontak berhasil dihapus</string>
+</resources>

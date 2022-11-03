@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.InsertUpdateActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+        <EditText
+            android:id="@+id/edt_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nama (contoh: Windah Basudara)"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:textSize="16dp"
+            android:layout_marginBottom="6dp"/>
+        <EditText
+            android:id="@+id/edt_number"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="No. Telepon (contoh: +628123456789)"
+            android:inputType="phone"
+            android:maxLines="1"
+            android:textSize="16dp"
+            android:layout_marginBottom="6dp"/>
+        <EditText
+            android:id="@+id/edt_instagram"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Instagram (contoh: adsh.jkk123)"
+            android:inputType="text"
+            android:maxLines="1"
+            android:textSize="16dp"
+            android:layout_marginBottom="6dp"/>
+        <EditText
+            android:id="@+id/edt_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Group (contoh: Keluarga)"
+            android:inputType="textCapWords"
+            android:maxLines="1"
+            android:textSize="16dp"
+            android:layout_marginBottom="6dp"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:gravity="center">
+            <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/submit" />
+            <LinearLayout
+                android:id="@+id/saved_contact"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btn_sms"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SMS"
+                    android:backgroundTint="@color/teal_700"
+                    android:textColor="@color/white"/>
+                <Button
+                    android:id="@+id/btn_telepon"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Telepon"
+                    android:backgroundTint="@color/purple_200"
+                    android:textColor="@color/white"/>
+                <Button
+                    android:id="@+id/btn_instagram"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Follow Instagram"
+                    android:backgroundTint="#FFC0007A"
+                    android:textColor="@color/white"/>
+                <Button
+                    android:id="@+id/btn_whatsapp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Whatsapp"
+                    android:backgroundTint="#FF25D366"
+                    android:textColor="@color/white"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
